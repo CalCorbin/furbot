@@ -1,6 +1,5 @@
+require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
-
-const TOKEN = process.env.FURBOT_TOKEN;
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
@@ -16,4 +15,4 @@ client.on('interactionCreate', async interaction => {
     }
 });
 
-client.login(TOKEN);
+client.login(process.env.FURBOT_TOKEN);
