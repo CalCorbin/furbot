@@ -1,6 +1,6 @@
-import { Client, GatewayIntentBits } from 'discord.js';
+const { Client, GatewayIntentBits } = require('discord.js');
 
-const TOKEN = node.env.FURBOT_TOKEN;
+const TOKEN = process.env.FURBOT_TOKEN;
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
