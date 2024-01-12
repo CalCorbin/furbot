@@ -1,4 +1,7 @@
 import { Client, GatewayIntentBits } from 'discord.js';
+
+const TOKEN = node.env.FURBOT_TOKEN;
+
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 client.on('ready', () => {
