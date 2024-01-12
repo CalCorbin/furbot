@@ -2,5 +2,15 @@
   "dependencies": {
     "discord.js": "^14.14.1",
     "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  },
+  "name": "furbot",
+  "scripts": {
+    "lint": "eslint index.js",
+    "start": "node index.js"
   }
 }
