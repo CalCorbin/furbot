@@ -1,5 +1,6 @@
 # Furbot the Discord Bot
 
+![Furby_picture.jpg](assets%2FFurby_picture.jpg)
 ## How to Run Locally
 1. Pull down repo.
 2. Run `npm install` to install dependencies.
