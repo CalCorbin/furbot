@@ -13,5 +13,6 @@
 ## Linting
 1. Run `npm run lint` to lint the code.
 
-## Misc
+## Useful Links
 1. Discord.js docs: https://discord.js.org/#/docs/main/stable/general/welcome
+2. Discord Developer Portal: https://discord.com/developers/applications
