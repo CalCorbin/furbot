@@ -14,5 +14,4 @@
 1. Run `npm run lint` to lint the code.
 
 ## Misc
-
 1. Discord.js docs: https://discord.js.org/#/docs/main/stable/general/welcome
