@@ -14,6 +14,7 @@
   "scripts": {
     "lint": "eslint index.js",
     "start": "npx nodemon index.js",
-    "prettier": "prettier --write index.js"
+    "prettier": "prettier --write index.js",
+    "deploycommands": "node deploy-commands.js"
   }
 }

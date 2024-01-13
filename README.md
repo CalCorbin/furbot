@@ -11,6 +11,11 @@
         - You can read more about nodemon here: https://www.npmjs.com/package/nodemon 
    - To stop the bot, press `Ctrl + C`.
 
+## Updating Slash Commands
+1. Add new slash commands to `commands/utility`.
+2. Run `npm run deploycommands` to deploy the commands to Discord.
+   - You can read more about slash commands here: https://discordjs.guide/creating-your-bot/command-deployment.html#guild-commands
+
 ## Linting
 1. Run `npm run lint` to lint the code.
 
