@@ -9,6 +9,10 @@
         "ecmaVersion": "latest"
     },
     "rules": {
-        "no-console": "off"
+        "no-console": "off",
+        "no-restricted-syntax": "off",
+        "global-require": "off",
+        "import/no-dynamic-require": "off",
+        "object-curly-newline": "off"
     }
 }
