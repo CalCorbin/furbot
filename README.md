@@ -17,3 +17,4 @@
 ## Useful Links
 1. Discord.js docs: https://discord.js.org/#/docs/main/stable/general/welcome
 2. Discord Developer Portal: https://discord.com/developers/applications
+3. Discord.js Guide: https://discordjs.guide/
